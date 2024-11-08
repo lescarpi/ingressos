@@ -2,9 +2,9 @@ package com.ingressos.api.service;
 
 import com.ingressos.api.config.SecurityConfiguration;
 import com.ingressos.api.config.UserDetailsImpl;
-import com.ingressos.api.http.CreateUserRequest;
-import com.ingressos.api.http.JwtTokenResponse;
-import com.ingressos.api.http.UserLoginRequest;
+import com.ingressos.api.http.request.CreateUserRequest;
+import com.ingressos.api.http.response.JwtTokenResponse;
+import com.ingressos.api.http.request.UserLoginRequest;
 import com.ingressos.api.model.Role;
 import com.ingressos.api.model.User;
 import com.ingressos.api.repository.RoleRepository;

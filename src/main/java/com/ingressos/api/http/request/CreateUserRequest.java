@@ -1,4 +1,4 @@
-package com.ingressos.api.http;
+package com.ingressos.api.http.request;
 
 import com.ingressos.api.model.RoleName;
 

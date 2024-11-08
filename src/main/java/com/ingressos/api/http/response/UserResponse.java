@@ -1,4 +1,4 @@
-package com.ingressos.api.http;
+package com.ingressos.api.http.response;
 
 import com.ingressos.api.model.Role;
 
