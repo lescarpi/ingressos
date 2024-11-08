@@ -1,4 +1,4 @@
-package com.ingressos.api.controller;
+package com.ingressos.api.controller.interfaces;
 
 import com.ingressos.api.http.request.CreateUserRequest;
 import com.ingressos.api.http.request.UserLoginRequest;

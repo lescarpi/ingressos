@@ -1,5 +1,6 @@
 package com.ingressos.api.controller;
 
+import com.ingressos.api.controller.interfaces.EventControllerInterface;
 import com.ingressos.api.http.request.CreateEventRequest;
 import com.ingressos.api.http.request.UpdateEventRequest;
 import com.ingressos.api.service.EventService;
