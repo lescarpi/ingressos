@@ -1,5 +1,5 @@
 # Ingressos 🎫
-Este é um projeto backend que simula o funcionamento de um site de venda de ingressos, desenvolvido com Java e Spring Boot. A aplicação permite o cadastro e autenticação de usuários, o gerenciamento de eventos e a compra de ingressos. O sistema utiliza PostgreSQL para persistência de dados e Redis para cache, com o objetivo de otimizar o desempenho e a escalabilidade.
+Este é um projeto backend feito para estudos de Docker e implantação de microsserviço na Cloud, simula o funcionamento de um site de venda de ingressos, desenvolvido com Java e Spring Boot. A aplicação permite o cadastro e autenticação de usuários, o gerenciamento de eventos e a compra de ingressos. O sistema utiliza PostgreSQL para persistência de dados e Redis para cache, com o objetivo de otimizar o desempenho.
 
 ## Tecnologias Utilizadas
 - Java 21
