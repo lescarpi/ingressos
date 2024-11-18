@@ -25,7 +25,8 @@ public class SecurityConfiguration {
     public static final String[] ENDPOINTS_WITH_AUTHENTICATION_NOT_REQUIRED = {
             "user/login",
             "user/register",
-            "ticket/book"
+            "ticket/book",
+            "ticket/purchase"
     };
 
     public static final String[] ENDPOINTS_WITH_AUTHENTICATION_REQUIRED = {

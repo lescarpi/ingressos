@@ -2,6 +2,7 @@ package com.ingressos.api.controller;
 
 import com.ingressos.api.controller.interfaces.TicketControllerInterface;
 import com.ingressos.api.http.request.BookTicketRequest;
+import com.ingressos.api.http.request.PurchaseTicketRequest;
 import com.ingressos.api.service.TicketService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,6 +19,11 @@ public class TicketController implements TicketControllerInterface {
     @Override
     public ResponseEntity<?> book(BookTicketRequest request) {
         return service.book(request);
+    }
+
+    @Override
+    public ResponseEntity<?> purchase(PurchaseTicketRequest request) {
+        return service.purchase(request);
     }
 
 }

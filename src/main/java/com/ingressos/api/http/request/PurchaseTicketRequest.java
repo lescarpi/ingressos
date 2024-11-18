@@ -1,4 +1,6 @@
 package com.ingressos.api.http.request;
 
-public record PurchaseTicketRequest() {
+import java.util.List;
+
+public record PurchaseTicketRequest(List<Long> ticketIds) {
 }
